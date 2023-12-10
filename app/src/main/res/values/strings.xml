@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">Project1_Screen3</string>
+    <string name="app_name">Project1_Screen4</string>
     <string name="button1_text">You have pressed picture 1 0 times</string>
+    <string name="dial_pad_touch_tones">Dial pad touch tones</string>
 </resources>

@@ -6,32 +6,26 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical">
-
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <Button
-            android:id="@+id/button1"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="Website 1" />
-        <Button
-            android:id="@+id/button2"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="Website 2" />
-        <Button
-            android:id="@+id/button3"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"
-            android:text="Website 3" />
-    </LinearLayout>
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
 
-    <WebView
-    android:id = "@+id/webView"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_marginTop="0dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dial_pad_touch_tones"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
 
-
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true">
+        </CheckBox>
+    </RelativeLayout>
 </LinearLayout>
