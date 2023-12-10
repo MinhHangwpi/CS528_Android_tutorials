@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Project1_Screen1</string>
+    <string name="button1_text">You have pressed picture 1 0 times</string>
 </resources>

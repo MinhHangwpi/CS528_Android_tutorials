@@ -7,46 +7,16 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ten Question Flag Quiz"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Question 1 of 10"
-        />
-
     <ImageView
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:background="@drawable/nicaragua_flag"
-        />
-    <GridLayout
+        android:id="@+id/image1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:columnCount="3"
-        android:rowCount="2">
-        <Button>
+        android:background="@drawable/nicaragua_flag"/>
 
-        </Button>
-        <Button>
-
-        </Button>
-        <Button>
-
-        </Button>
-        <Button>
-
-        </Button>
-        <Button>
-
-        </Button>
-        <Button>
-
-        </Button>
-
-    </GridLayout>
+    <TextView
+        android:id="@+id/button1_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button1_text">
+    </TextView>
 </LinearLayout>
