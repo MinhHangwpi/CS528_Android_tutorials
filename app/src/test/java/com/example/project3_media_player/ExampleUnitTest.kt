@@ -1,4 +1,4 @@
-package com.example.project1_screen1
+package com.example.project3_media_player
 
 import org.junit.Test
 

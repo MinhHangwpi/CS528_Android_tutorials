@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.project1_screen1"
+    namespace = "com.example.project3_media_player"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.project1_screen1"
+        applicationId = "com.example.project3_media_player"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
