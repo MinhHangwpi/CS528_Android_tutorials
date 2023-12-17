@@ -5,48 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center">
 
     <TextView
+        android:id="@+id/label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ten Question Flag Quiz"
-        />
+        android:text="The number steps:"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
 
     <TextView
+        android:id="@+id/num_steps"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Question 1 of 10"
+        android:text="0 steps"
+        android:textSize="30sp"
         />
-
-    <ImageView
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        android:background="@drawable/nicaragua_flag"
-        />
-    <GridLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:columnCount="3"
-        android:rowCount="2">
-        <Button>
-
-        </Button>
-        <Button>
-
-        </Button>
-        <Button>
-
-        </Button>
-        <Button>
-
-        </Button>
-        <Button>
-
-        </Button>
-        <Button>
-
-        </Button>
-
-    </GridLayout>
 </LinearLayout>

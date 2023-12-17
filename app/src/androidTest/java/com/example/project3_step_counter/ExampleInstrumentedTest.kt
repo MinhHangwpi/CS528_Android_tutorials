@@ -1,4 +1,4 @@
-package com.example.project1_screen1
+package com.example.project3_step_counter
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
